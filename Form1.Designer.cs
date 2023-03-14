@@ -65,9 +65,8 @@
             this.lblOperacao.BackColor = System.Drawing.Color.Transparent;
             this.lblOperacao.Location = new System.Drawing.Point(24, 27);
             this.lblOperacao.Name = "lblOperacao";
-            this.lblOperacao.Size = new System.Drawing.Size(13, 13);
+            this.lblOperacao.Size = new System.Drawing.Size(0, 13);
             this.lblOperacao.TabIndex = 1;
-            this.lblOperacao.Text = "0";
             // 
             // button1
             // 
@@ -275,7 +274,7 @@
             this.Controls.Add(this.lblOperacao);
             this.Controls.Add(this.txtResultado);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
